@@ -6,4 +6,8 @@
   html {
     font-family: "Plus Jakarta Sans"
   }
+
+  .scroller::-webkit-scrollbar {
+    display: none;
+  }
 }
