@@ -1,5 +1,6 @@
 import Cta from "./components/Cta";
 import Features from "./components/Features";
+import FeaturedJobs from "./components/FeaturedJobs";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import PopularJobs from "./components/PopularJobs";
@@ -12,7 +13,8 @@ function App() {
         <Hero />
         <Features />
         <PopularJobs />
-        <Cta/>
+        <Cta />
+        <FeaturedJobs/>
       </main>
     </>
   );
