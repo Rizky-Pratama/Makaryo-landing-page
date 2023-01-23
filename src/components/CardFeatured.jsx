@@ -1,11 +1,11 @@
 function CardFeatured() {
   return (
     <div className="px-6 pt-8 pb-10 w-[361px] flex flex-col gap-5 border border-[#E2E3E8] rounded-3xl">
-      <div className="flex gap-2 text-white">
-        <span className="px-3 py-1 rounded-md bg-primary group-hover:bg-secondary-50/40">
+      <div className="flex gap-2 text-white font-medium capitalize">
+        <span className="px-3 py-1 rounded-md bg-primary">
           remote
         </span>
-        <span className="px-3 py-1 rounded-md bg-primary group-hover:bg-secondary-50/40">
+        <span className="px-3 py-1 rounded-md bg-primary">
           full time
         </span>
       </div>
@@ -16,9 +16,9 @@ function CardFeatured() {
             data="/logo/google.svg"
             type="image/svg+xml"
           ></object>
-          <div>
+          <div className="flex flex-col gap-1">
             <h3 className="text-xl font-semibold">Junior Vidiographer</h3>
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-2">
               <object
                 className="text-grey fill-grey"
                 data="/icons/location.svg"
@@ -52,7 +52,7 @@ function CardFeatured() {
           Apply Now
           <object
             className="absolute bottom-0 right-0"
-            data="/background/button-gradient-2.svg"
+            data="/background/button-gradient2.svg"
             type="image/svg+xml"
           ></object>
         </button>
