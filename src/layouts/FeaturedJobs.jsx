@@ -1,3 +1,5 @@
+import CardFeatured from "../components/CardFeatured";
+
 function FeaturedJobs() {
   return (
     <section>
@@ -8,8 +10,11 @@ function FeaturedJobs() {
               Featured <span className="text-primary">jobs offer</span>
             </h1>
             <p className="text-sm text-grey">
-Lorem ipsum dolor sit amet consectetur adipisicing elit Placeat debitis
+              Lorem ipsum dolor sit amet consectetur adipisicing elit Placeat debitis
             </p>
+          </div>
+          <div className="flex">
+            <CardFeatured/>
           </div>
         </div>
       </div>

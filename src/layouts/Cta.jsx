@@ -1,7 +1,7 @@
 function Cta() {
   return (
     <section className="p-10 bg-[#F9FAFB]">
-      <div className="mx-auto h-[50rem] max-w-screen-2xl bg-[url('/src/assets/frame.png')] bg-cover bg-center bg-no-repeat overflow-hidden">
+      <div className="mx-auto h-[50rem] max-w-screen-2xl bg-[url('/src/assets/Frame.png')] bg-cover bg-center bg-no-repeat overflow-hidden">
         <div className="container">
           <div className="flex text-white gap-5 items-center justify-center">
             <div className="w-[32rem] flex flex-col gap-5">

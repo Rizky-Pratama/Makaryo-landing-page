@@ -1,6 +1,6 @@
-import ImgHero from "./ImgHero";
-import InputHero from "./InputHero";
-import Pin from "./Pin";
+import ImgHero from "../components/ImgHero";
+import InputHero from "../components/InputHero";
+import Pin from "../components/Pin";
 
 function Hero() {
   return (
