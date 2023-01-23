@@ -91,7 +91,7 @@ function PopularJobs() {
         </div>
         <img
           className="absolute bottom-0 left-0 h-60 "
-          src="/src/assets/background/lines.svg"
+          src="/background/lines.svg"
           alt="lines"
         />
       </div>

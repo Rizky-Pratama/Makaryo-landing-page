@@ -49,28 +49,28 @@ function Hero() {
               <div className="w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
                 <img
                   className="object-contain "
-                  src="/src/assets/logo/meta.svg"
+                  src="/logo/meta.svg"
                   alt="Meta Logo"
                 />
               </div>
               <div className="w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
                 <img
                   className="object-contain "
-                  src="/src/assets/logo/dribble.svg"
+                  src="/logo/dribble.svg"
                   alt="Dribble Logo"
                 />
               </div>
               <div className="w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
                 <img
                   className="object-contain "
-                  src="/src/assets/logo/agola.svg"
+                  src="/logo/agola.svg"
                   alt="Agola Logo"
                 />
               </div>
               <div className="w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
                 <img
                   className="object-contain "
-                  src="/src/assets/logo/tesla.svg"
+                  src="/logo/tesla.svg"
                   alt="Tesla Logo"
                 />
               </div>
@@ -78,17 +78,17 @@ function Hero() {
           </div>
           <img
             className="absolute -bottom-5 -right-36"
-            src="/src/assets/Component-Member.png"
+            src="/Component-Member.png"
             alt="Member"
           />
         </div>
-        <div className="absolute max-w-4xl inset-0 left-1/2  bg-[url('/src/assets/Photo-Background.png')] bg-cover -z-50">
+        <div className="absolute max-w-4xl inset-0 left-1/2  bg-[url('/Photo-Background.png')] bg-cover -z-50">
           <ImgHero />
         </div>
       </div>
       <img
         className="absolute bottom-0 h-3/4 -z-50"
-        src="/src/assets/background/lines.svg"
+        src="/background/lines.svg"
         alt="lines"
       />
     </section>

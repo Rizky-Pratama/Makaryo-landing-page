@@ -20,7 +20,7 @@ function Features() {
             </p>
             <img
               className="absolute right-[10%] -bottom-[63%] scale-90"
-              src="/src/assets/mockup/register.png"
+              src="/mockup/register.png"
               alt="Rigister"
             />
           </div>
@@ -37,7 +37,7 @@ function Features() {
               </p>
               <img
                 className="absolute right-4 -bottom-[76%] scale-90"
-                src="/src/assets/mockup/resume.png"
+                src="/mockup/resume.png"
                 alt="Resume"
               />
             </div>
@@ -51,7 +51,7 @@ function Features() {
               </p>
               <img
                 className="absolute right-4 -bottom-[76%] scale-90"
-                src="/src/assets/mockup/find-job.png"
+                src="/mockup/find-job.png"
                 alt="Find Job"
               />
             </div>
@@ -61,22 +61,22 @@ function Features() {
 
       <object
         className="absolute -top-[13rem] -left-[16rem]"
-        data="/src/assets/background/circle-gradient.svg"
+        data="/background/circle-gradient.svg"
         type="image/svg+xml"
       ></object>
       <object
         className="absolute -top-[11rem] -right-[5rem] opacity-5 scale-75"
-        data="/src/assets/background/italic-lines.svg"
+        data="/background/italic-lines.svg"
         type="image/svg+xml"
       ></object>
       <object
         className="absolute -top-[16rem] -left-[5rem] opacity-5 -scale-x-[1] scale-75"
-        data="/src/assets/background/italic-lines.svg"
+        data="/background/italic-lines.svg"
         type="image/svg+xml"
       ></object>
       <object
         className="absolute -bottom-80 -left-[41rem] opacity-20 scale-75"
-        data="/src/assets/background/spiral.svg"
+        data="/background/spiral.svg"
         type="image/svg+xml"
       ></object>
     </section>

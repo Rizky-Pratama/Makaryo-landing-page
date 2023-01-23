@@ -6,7 +6,7 @@ function Card({datas}) {
         <div className="flex-0">
           <object
             className="w-14 aspect-square object-center p-2 bg-[#fff] rounded-2xl shadow-lg shadow-grey/20"
-            data={`/src/assets/logo/${svg}.svg`}
+            data={`/logo/${svg}.svg`}
             type="image/svg+xml"
           ></object>
         </div>
