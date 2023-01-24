@@ -9,7 +9,7 @@ function CardFeatured({ labels, svg, job, location, desk, hours, price }) {
       <div>
         <div className="flex gap-3">
           <object
-            className="w-14 aspect-square object-center p-3 bg-[#fff] rounded-2xl shadow-lg shadow-grey/20"
+            className="w-14 h-14 aspect-square object-center p-3 bg-[#fff] rounded-2xl shadow-lg shadow-grey/20"
             data={`/logo/${svg}.svg`}
             type="image/svg+xml"
           ></object>
