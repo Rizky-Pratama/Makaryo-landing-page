@@ -4,10 +4,14 @@
 
 @layer base {
   html {
-    font-family: "Plus Jakarta Sans"
+    font-family: "Plus Jakarta Sans";
   }
 
   .scroller::-webkit-scrollbar {
     display: none;
+  }
+
+  section.testimoni {
+    @apply relative bg-gradient-to-tl from-[#0A65FF] to-[#81B0FF] overflow-hidden;
   }
 }
