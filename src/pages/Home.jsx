@@ -5,6 +5,7 @@ import FeaturedJobs from "../layouts/FeaturedJobs";
 import Hero from "../layouts/Hero";
 import PopularJobs from "../layouts/PopularJobs";
 import Testimoni from "../layouts/Testimoni";
+import News from "../layouts/News";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <Cta />
         <FeaturedJobs />
         <Testimoni />
+        <News/>
       </main>
     </>
   );

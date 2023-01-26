@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "zhuangtongfa.material-theme",
+    "christian-kohler.path-intellisense",
+    "pkief.material-icon-theme",
+    "oderwat.indent-rainbow"
+  ]
+}

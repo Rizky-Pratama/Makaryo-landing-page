@@ -87,7 +87,6 @@ function Testimoni() {
           Show More
         </button>
         <div className="block absolute bottom-0 inset-x-0 h-[40rem] bg-gradient-to-t from-[#2979FF] via-[#2978fff8] to-transparent"></div>
-        {/* <div className="block absolute bottom-0 inset-x-0 h-[40rem]"></div> */}
       </div>
     </section>
   );
