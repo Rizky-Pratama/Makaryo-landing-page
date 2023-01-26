@@ -6,6 +6,7 @@ import Hero from "../layouts/Hero";
 import PopularJobs from "../layouts/PopularJobs";
 import Testimoni from "../layouts/Testimoni";
 import News from "../layouts/News";
+import Footer from "../layouts/Footer";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
         <Testimoni />
         <News/>
       </main>
+      <Footer/>
     </>
   );
 }
