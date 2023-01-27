@@ -1,17 +1,18 @@
-import Download from "../components/Download"
-import NavFooter from "../components/NavFooter"
+import Download from "../components/Download";
+import IconsFooter from "../components/IconsFooter";
+import NavFooter from "../components/NavFooter";
 
 function Footer() {
   return (
     <footer className="bg-black text-white">
-      <div>
+      <div className="relative mx-auto max-w-screen-2xl overflow-hidden">
         <div className="container">
           <div className="pt-24 pb-10 flex flex-col divide-y-2">
             <div className="pb-5 flex flex-col items-center gap-24">
               <Download />
               <NavFooter />
             </div>
-            <div className="pt-5 px-16 flex items-center justify-between">
+            <div className="pt-5 px-6 flex items-center justify-between">
               <div className="flex items-center text-white">
                 <span className="text-2xl font-bold tracking-wide">
                   Makaryo
@@ -33,31 +34,21 @@ function Footer() {
                   <circle cx="6" cy="2" r="1" fill="#2554FF" />
                 </svg>
               </div>
-              <div className="flex gap-2">
-                <object
-                  data="/icons/facebook.svg"
-                  type="image/svg+xml"
-                ></object>
-                <object
-                  data="/icons/linkedln.svg"
-                  type="image/svg+xml"
-                ></object>
-                <object
-                  data="/icons/instagram.svg"
-                  type="image/svg+xml"
-                ></object>
-                <object data="/icons/youtube.svg" type="image/svg+xml"></object>
-                <object data="/icons/twitter.svg" type="image/svg+xml"></object>
-              </div>
+              <IconsFooter />
               <p className="text-sm font-normal">
                 @2023 Makaryo. All Rights Reserved
               </p>
             </div>
           </div>
         </div>
+        <object
+          className="absolute -top-64 bottom-0 -right-80 object-cover"
+          data="/background/bg-footer.svg"
+          type="image/svg+xml"
+        ></object>
       </div>
     </footer>
   );
 }
 
-export default Footer
+export default Footer;
