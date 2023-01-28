@@ -5,9 +5,9 @@ import Pin from "../components/Pin";
 function Hero() {
   return (
     <section className="hero relative pb-10">
-      <div className="h-max container grid grid-cols-2">
+      <div className="h-max container grid grid-cols-1 lg:grid-cols-2">
         <div className="mt-32 relative flex flex-col gap-10 justify-center">
-          <h1 className="inline-flex flex-col gap-3 text-6xl font-bold text-black">
+          <h1 className="inline-flex flex-col gap-3 text-4xl lg:text-6xl font-bold text-black">
             <span className="flex items-center">
               FIND&nbsp;
               <Pin />
@@ -23,8 +23,6 @@ function Hero() {
               <span className="inline-flex flex-col text-primary">
                 MAKARYO!{" "}
                 <svg
-                  width="315"
-                  height="33"
                   viewBox="0 0 315 33"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -42,32 +40,32 @@ function Hero() {
           </h1>
           <InputHero />
           <div className="flex flex-col gap-5">
-            <p className="text-lg text-black font-semibold">
+            <p className="text-base lg:text-lg text-black font-semibold">
               More thab 400.321 jobs is listed in
             </p>
             <div className="flex gap-5">
-              <div className="w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
+              <div className="w-11 p-2 lg:p-0 lg:w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
                 <img
                   className="object-contain "
                   src="/logo/meta.svg"
                   alt="Meta Logo"
                 />
               </div>
-              <div className="w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
+              <div className="w-11 p-2 lg:p-0 lg:w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
                 <img
                   className="object-contain "
                   src="/logo/dribble.svg"
                   alt="Dribble Logo"
                 />
               </div>
-              <div className="w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
+              <div className="w-11 p-2 lg:p-0 lg:w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
                 <img
                   className="object-contain "
                   src="/logo/agola.svg"
                   alt="Agola Logo"
                 />
               </div>
-              <div className="w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
+              <div className="w-11 p-2 lg:p-0 lg:w-12 grid place-items-center aspect-square rounded-lg shadow-xl bg-[#fff]">
                 <img
                   className="object-contain "
                   src="/logo/tesla.svg"
@@ -77,12 +75,12 @@ function Hero() {
             </div>
           </div>
           <img
-            className="absolute -bottom-5 -right-36"
+            className="hidden lg:block absolute -bottom-5 -right-36"
             src="/Component-Member.png"
             alt="Member"
           />
         </div>
-        <div className="absolute max-w-4xl inset-0 left-1/2  bg-[url('/Photo-Background.png')] bg-cover -z-50">
+        <div className="hidden lg:block absolute max-w-4xl inset-0 left-1/2  bg-[url('/Photo-Background.png')] bg-cover -z-50">
           <ImgHero />
         </div>
       </div>

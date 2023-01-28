@@ -5,7 +5,7 @@ import SunHero from "./SunHero";
 function Pin({ type = 1 }) {
   if (type == 1) {
     return (
-      <span className="px-5 h-16 inline-flex items-center gap-3 rounded-full bg-primary">
+      <span className="px-3 h-10 lg:h-16 inline-flex items-center gap-2 lg:gap-3 rounded-full bg-primary">
         <Dot />
         <ArrowHero />
         <Dot />
@@ -13,7 +13,7 @@ function Pin({ type = 1 }) {
     );
   } else {
     return (
-      <span className="px-5 h-16 inline-flex items-center gap-3 rounded-full bg-[#F88060]">
+      <span className="px-5 h-10 lg:h-16 inline-flex items-center gap-2 lg:gap-3 rounded-full bg-[#F88060]">
         <Dot />
         <SunHero />
         <Dot />

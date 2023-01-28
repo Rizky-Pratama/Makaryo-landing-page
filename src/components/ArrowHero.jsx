@@ -1,8 +1,7 @@
 function ArrowHero() {
   return (
     <svg
-      width="56"
-      height="26"
+      className="w-8 lg:w-14"
       viewBox="0 0 56 26"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

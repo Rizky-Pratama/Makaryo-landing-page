@@ -25,7 +25,7 @@ function Navbar() {
                 <circle cx="6" cy="2" r="1" fill="#2554FF" />
               </svg>
             </div>
-            <div className="flex">
+            <div className="lg:flex hidden">
               <ul className="flex items-center gap-6 text-sm font-semibold text-grey">
                 <li>
                   <a href="#">Home</a>
@@ -55,8 +55,7 @@ function Navbar() {
                 </span>
               </li>
               <li>
-                <button className="block py-2 px-3 rounded-lg text-primary bg-white hover:bg-slate-100 transition duration-200"
-                >
+                <button className="block py-2 px-3 rounded-lg text-primary bg-white hover:bg-slate-100 transition duration-200">
                   Register
                 </button>
               </li>

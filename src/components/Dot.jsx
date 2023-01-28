@@ -1,6 +1,6 @@
 function Dot() {
   return (
-    <div className="w-3 h-3 rounded-full bg-white"></div>
+    <div className="w-2 lg:w-3 aspect-square rounded-full bg-white"></div>
   )
 }
 
