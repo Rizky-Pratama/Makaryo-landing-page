@@ -45,7 +45,7 @@ function Navbar() {
           <div className="flex items-center mr-3">
             <ul className="flex gap-4 items-center text-sm font-semibold">
               <li>
-                <a href="#" className="text-white">
+                <a href="#" className="text-primary lg:text-white ">
                   Login
                 </a>
               </li>
@@ -55,7 +55,7 @@ function Navbar() {
                 </span>
               </li>
               <li>
-                <button className="block py-2 px-3 rounded-lg text-primary bg-white hover:bg-slate-100 transition duration-200">
+                <button className="block py-2 px-3 rounded-lg text-white lg:text-primary bg-primary lg:bg-white  hover:bg-slate-100 transition duration-200">
                   Register
                 </button>
               </li>
