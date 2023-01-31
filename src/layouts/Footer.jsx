@@ -12,9 +12,9 @@ function Footer() {
               <Download />
               <NavFooter />
             </div>
-            <div className="pt-5 px-6 flex items-center justify-between">
+            <div className="pt-5 px-6 flex flex-col lg:flex-row items-center lg:justify-between">
               <div className="flex items-center text-white">
-                <span className="text-2xl font-bold tracking-wide">
+                <span className="mb-2 lg:mb-0 text-2xl font-bold tracking-wide">
                   Makaryo
                 </span>
                 <svg
@@ -35,7 +35,7 @@ function Footer() {
                 </svg>
               </div>
               <IconsFooter />
-              <p className="text-sm font-normal">
+              <p className="mt-8 lg:mt-0 self-center text-sm font-normal">
                 @2023 Makaryo. All Rights Reserved
               </p>
             </div>
