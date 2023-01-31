@@ -83,9 +83,11 @@ function Testimoni() {
           data="/background/lines3.svg"
           type="image/svg+xml"
         ></object>
-        <button className="py-3 px-20 absolute bottom-24 right-[40%] rounded-2xl font-medium text-primary bg-white z-10">
-          Show More
-        </button>
+        <div className="absolute inset-x-0 bottom-24 z-10 text-center">
+          <button className="py-3 px-20 rounded-2xl font-medium text-primary bg-white">
+            Show More
+          </button>
+        </div>
         <div className="block absolute bottom-0 inset-x-0 h-[40rem] bg-gradient-to-t from-[#2979FF] via-[#2978fff8] to-transparent"></div>
       </div>
     </section>

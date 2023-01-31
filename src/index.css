@@ -11,6 +11,9 @@
     display: none;
   }
 
+  section {
+    @apply overflow-hidden;
+  }
   section.testimoni {
     @apply relative bg-gradient-to-tl from-[#0A65FF] to-[#81B0FF] overflow-hidden;
   }

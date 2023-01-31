@@ -21,8 +21,8 @@ function Card({datas}) {
         {desk}
       </p>
       <div className="flex gap-1 text-sm font-semibold text-white">
-        {category.map((data) => (
-          <span className="px-3 py-1 rounded-md bg-primary group-hover:bg-secondary-50/40">
+        {category.map((data,i) => (
+          <span key={i} className="px-3 py-1 rounded-md bg-primary group-hover:bg-secondary-50/40">
             {data}
           </span>
         ))}
