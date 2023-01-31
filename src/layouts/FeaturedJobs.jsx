@@ -64,7 +64,7 @@ function FeaturedJobs() {
                 price="$50K - 220K"
               />
             </div>
-            <button className="w-[19rem] py-3 flex gap-3 justify-center items-center text-base font-semibold text-primary rounded-xl outline outline-2">
+            <button className="relative w-[19rem] py-3 flex gap-3 justify-center items-center text-base font-semibold text-primary border-2 border-primary rounded-xl hover:ring z-10">
               <span>Find More Jobs</span>
               <object data="/icons/arrow-right-short.svg"></object>
             </button>
