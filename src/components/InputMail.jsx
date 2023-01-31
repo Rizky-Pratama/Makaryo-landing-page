@@ -8,7 +8,7 @@ function InputMail() {
           placeholder="Your Email"
         />
       </div>
-      <button className="relative py-5 px-7 text-sm text-white font-medium rounded-xl bg-primary shadow-lg shadow-primary/30 hover:ring">
+      <button className="relative py-4 lg:py-5 px-7 text-sm text-white font-medium rounded-xl bg-primary shadow-lg shadow-primary/30 hover:ring">
         <object
           className="absolute top-0 left-0"
           data="/background/button-gradient.svg"

@@ -6,7 +6,7 @@ function News() {
       <div className="relative mx-auto max-w-screen-2xl">
         <div className="relative container z-10">
           <div className="pt-32 pb-96 flex flex-col items-center gap-16">
-            <h2 className="w-[35rem] text-4xl font-bold text-center">
+            <h2 className="lg:w-[35rem] text-4xl font-bold text-center">
               Get the latest news and updates from
               <span className="text-primary"> our company</span>
             </h2>
@@ -14,7 +14,7 @@ function News() {
           </div>
         </div>
         <img
-          className="absolute left-20 -bottom-32 object-cover z-10"
+          className="absolute h-96 lg:h-auto bottom-0 lg:left-20 lg:-bottom-32 object-cover z-10"
           src="/background/brands.png"
           alt="Brands"
         />
