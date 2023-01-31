@@ -5,11 +5,11 @@ function Testimoni() {
     <section className="testimoni ">
       <div className="mx-auto max-w-screen-2xl">
         <div className="container">
-          <div className="pt-32 pb-28 flex flex-col gap-16 items-center">
-            <h2 className="w-[35rem] text-4xl font-bold text-white text-center">
+          <div className="h-[60rem] lg:h-auto pt-20 lg:pt-32 pb-28 flex flex-col gap-14 lg:gap-16 items-center">
+            <h2 className="lg:w-[35rem] text-3xl lg:text-4xl font-bold text-white text-center">
               We are extremely satisfied with Makaryo's products
             </h2>
-            <div className="max-h-[1100px] flex flex-col flex-wrap content-center gap-4">
+            <div className="lg:max-h-[1100px] flex lg:flex-col flex-wrap justify-center content-center gap-4">
               <CardTestimoni
                 profile="1"
                 name="Terry Torff"
@@ -88,7 +88,7 @@ function Testimoni() {
             Show More
           </button>
         </div>
-        <div className="block absolute bottom-0 inset-x-0 h-[40rem] bg-gradient-to-t from-[#2979FF] via-[#2978fff8] to-transparent"></div>
+        <div className="block absolute bottom-0 inset-x-0 h-96 lg:h-[40rem] bg-gradient-to-t from-[#2979FF] via-[#2978fff8] to-transparent"></div>
       </div>
     </section>
   );
