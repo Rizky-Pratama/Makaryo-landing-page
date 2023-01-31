@@ -55,14 +55,14 @@ const navs = [
 ];
 function NavFooter() {
   return (
-    <nav className="w-full flex justify-evenly flex-wrap gap-y-7">
-      {navs?.map((nav) => (
-        <ul className="flex-none basis-40 flex flex-col gap-5">
+    <nav className="relative w-full flex justify-evenly flex-wrap gap-y-7 z-10">
+      {navs?.map((nav,i) => (
+        <ul key={i} className="flex-none basis-40 flex flex-col gap-5">
           <li>
             <span className="text-lg font-semibold">{nav.head}</span>
           </li>
-          {nav.links.map((item) => (
-            <li>
+          {nav.links.map((item,i) => (
+            <li key={i}>
               <a
                 className="text-sm font-normal capitalize hover:underline underline-offset-4 transition-all"
                 href={item.href}
